@@ -10,7 +10,11 @@ if ($(window).width() <= 500) {
             $(".mobile-menu").css("display", "grid");
         }
     });
-    $(document).click(function() {
-        $(".mobile-menu").css("display", "none");
+    
+    $("main, footer").click(function() {
+        if ($(".mobile-menu").css("display") === "grid") {
+            $(".mobile-menu").css("display", "none");
+        }
     })
+    
 }

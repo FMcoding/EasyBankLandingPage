@@ -454,6 +454,150 @@ footer {
     margin-bottom: 0px;
 }
 
+@media screen and (max-width: 1250px) {
+    .header {
+        position: fixed;
+    }
+
+    .next-generation-container {
+        height: 30rem;
+    }
+    
+    .digital-content-container {
+        width: 100%;
+    }
+    
+    .digital-content {
+        width: 90%;
+        height: 15rem;
+        text-align: center;
+    }
+    
+    .digital-content h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+   
+    .digital-content .req-invite-container {
+        margin: auto;
+    }
+
+    .phone-container {
+        width: 100%;
+        background-image: url("./easybank-landing-page-master/images/bg-intro-mobile.svg");
+        background-position-x: 0rem;
+        background-position-y: 0rem;
+    }
+    
+    .phone-container img {
+        transform: scale(0.5) translate(-25rem, -39rem);
+    }
+
+    .why-easybank-container {
+        width: 100%;
+        height: 65rem;
+        display: flex;
+        place-items: initial;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .why-easybank-content {
+        width: 90%;
+        height: 60rem;
+    }
+    
+    .reason-title {
+        width: 100%;
+        height: 14rem;
+        text-align: center;
+    }
+    
+    .reason-div {
+        width: 100%;
+        height: 50rem;
+        display: grid;
+        grid-template-areas:
+            'online simple'
+            'fast api';
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 1.5rem;
+    }
+    
+    .reason-grid {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .latest-article-container {
+        width: 100%;
+        height: 70rem;
+        display: flex;
+        place-items: initial;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .latest-article-content {
+        width: 90%;
+        height: 65rem;
+    }
+
+    
+    .latest-article-content h1 {
+        text-align: center;
+    }
+    
+    .article-div {
+        width: 100%;
+        height: 56.5rem;
+        display: grid;
+        grid-template-areas:
+            'currency food'
+            'plane confetti';
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 1.5rem;
+    }
+    
+    .articles {
+        width: 100%;
+        height: 27.5rem;
+    }
+    
+    .article-start {
+        width: 17rem;
+        height: 45%;
+        margin: auto;
+    }
+
+    footer {
+        height: 15rem;
+    }
+    
+    .footer-content-container {
+        width: 100%;
+        height: 10rem;
+    }
+    
+    .media-links {
+        width: 15rem;
+        height: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space;
+    }
+    
+    .footer-content {
+        width: 15rem;
+    }
+    
+    .footer-invite {
+        align-items: center;
+        transform: translateX(1rem);
+    }
+}
+
 @media screen and (max-width: 500px) {
     .header {
         position: fixed;
