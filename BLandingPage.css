@@ -454,6 +454,10 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+    .header {
+        position: fixed;
+    }
+
     .header-links {
         display: none;
     }
@@ -466,9 +470,9 @@ footer {
         display: grid;
     }
 
-    .mobile-menu {
+    /* .mobile-menu {
         display: grid;
-    }
+    } */
 
     header nav {
         width: 90%;
@@ -511,5 +515,130 @@ footer {
     
     .phone-container img {
         transform: scale(0.5) translate(-25rem, -39rem);
+    }
+
+    .why-easybank-container {
+        width: 100%;
+        height: 95rem;
+        display: flex;
+        place-items: initial;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .why-easybank-content {
+        width: 90%;
+        height: 87.5rem;
+    }
+    
+    .reason-title {
+        width: 100%;
+        height: 14rem;
+        text-align: center;
+    }
+    
+    .reason-div {
+        width: 100%;
+        height: 50rem;
+        display: grid;
+        grid-template-areas:
+            'online'
+            'simple'
+            'fast'
+            'api';
+        grid-column-gap: 0rem;
+        grid-row-gap: 1.5rem;
+    }
+    
+    .reason-grid {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .latest-article-container {
+        width: 100%;
+        height: 130rem;
+        display: flex;
+        place-items: initial;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .latest-article-content {
+        width: 90%;
+        height: 120rem;
+    }
+
+    
+    .latest-article-content h1 {
+        text-align: center;
+    }
+    
+    .article-div {
+        width: 100%;
+        height: 117.5rem;
+        display: grid;
+        grid-template-areas:
+            'currency'
+            'food'
+            'plane'
+            'confetti';
+        grid-column-gap: 0rem;
+        grid-row-gap: 1.5rem;
+    }
+    
+    .articles {
+        width: 100%;
+        height: 27.5rem;
+    }
+    
+    .article-start {
+        width: 17rem;
+        height: 45%;
+        margin: auto;
+    }
+
+    footer {
+        width: 100%;
+        height: 37.5rem;
+        display: flex;
+        place-items: initial;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-content-container {
+        width: 90%;
+        height: 35rem;
+        display: inline;
+    }
+    
+    .media-links {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .footer-content {
+        width: 70%;
+        height: 17.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .footer-invite {
+        width: 70%;
+        margin: auto;
+        transform: translateX(0rem);
+    }
+    
+    .footer-invite {
+        width: 70%;
+        align-items: center;
+        margin: auto;
     }
 }
