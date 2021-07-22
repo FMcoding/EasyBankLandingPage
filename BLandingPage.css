@@ -507,12 +507,10 @@ footer {
         background-image: url("./easybank-landing-page-master/images/bg-intro-mobile.svg");
         background-position-x: 0rem;
         background-position-y: 0rem;
-        dislpay: grid;
-        place-items: center;
     }
     
     .phone-container img {
-        transform: scale(0.5) translate(-25rem, -39rem);
+        transform: scale(0.5) translate(-20rem, -39rem);
     }
 
     .why-easybank-container {
