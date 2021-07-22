@@ -9,6 +9,8 @@ if ($(window).width() <= 500) {
         } else {
             $(".mobile-menu").css("display", "grid");
         }
-        
     });
+    $(document).click(function() {
+        $(".mobile-menu").css("display", "none");
+    })
 }
